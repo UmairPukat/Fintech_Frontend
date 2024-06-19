@@ -23,7 +23,6 @@ export class LayoutComponent implements OnInit {
       details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis',
       image: 'assets/images/client2.jpg'
     },
-    
   ];
 
   customOptions = {

@@ -1,0 +1,411 @@
+<div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="assets/images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Fintech
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" [attr.aria-expanded]="isNavbarCollapsed ? 'true' : 'false'" aria-label="Toggle navigation" (click)="toggleNavbar()" [ngClass]="{ 'collapsed': !isNavbarCollapsed }">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{ 'show': isNavbarCollapsed }">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active" >
+                <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" href="#Platform" > Platform</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About" >About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#whyus">Why Us</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" (click)="Login()"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Simplify and automate your payments at scale
+                    </h1>
+                    <p>
+                      Streamline your payment workflows with automated data entry, flexible approval processes, easy to use payments, and simple reconciliation.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="assets/images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" id="Platform">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Platform</span>
+          </h2><br>
+          <h4>A <span>better </span> way to handle payments</h4>
+          <p>
+            Automate and streamline your payment processes and workflows from one central platform, with seamless integration to your accounting software.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Send payments to many vendors at once
+                </h5>
+                <p>
+                  Automate and scale your business by sending accurate and fast payments to many vendors at once.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Automated tax
+                  compliance
+                </h5>
+                <p>
+                  Collect W8s and W9s and generate 1099s to ease your end of year tax filing. Simplify your tax preparation with accurate financial reporting.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Powerful API for custom workflows
+                </h5>
+                <p>
+                  Tailor your payment workflows with custom experiences using our powerful API.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Pay vendors from across the world
+                </h5>
+                <p>
+                  WIth 34+ different currencies, you can pay your vendors in their local currencies
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Integrate with your existing finance stack
+                </h5>
+                <p>
+                  Reliable integrations and syncing to keep your records clean and up-to-date.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="assets/images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Custom controls and approvals
+                </h5>
+                <p>
+                  Controls to match your company's processes and approvals for assurance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding" id="About">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+            Revolutionizing the Financial Landscape with Cutting-edge Technology.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="assets/images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+                Our Mission
+            </h3>
+            <p>
+                Our team comprises dedicated experts in finance and technology. Through advanced analytics, secure data integration, and intuitive user interfaces,
+                 we deliver unparalleled financial solutions. Whether you're looking to streamline your personal finance management, secure seamless payment options,
+                  or explore the potentials of blockchain technology, we are here to guide you every step of the way.
+            </p>
+            <p>
+                Our team comprises dedicated experts in finance and technology. Through advanced analytics, secure data integration, and intuitive user interfaces, we deliver unparalleled financial solutions. Whether you're looking to streamline your personal finance management, secure seamless payment options, or explore the potentials of blockchain technology, we are here to guide you every step of the way.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding" id="whyus">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h4 style="font-weight: bold; color: #00bbf0;">
+          Why Meo
+        </h4>
+        <h2>Scale your business with <span>Meo</span></h2>
+        <p style="margin-top: 10px;">
+          Automate and streamline your payment processes and workflows from one central platform, with seamless integration to your accounting software.
+        </p>
+      </div>
+      <div class="div-block-43">
+        <h4 class="heading-35">
+          Globally scalable solutions, reliability, and security for your payment workflows.
+        </h4>
+        <div class="w-layout-grid grid-15">
+          <div id="w-node-_1cd39c52-fb8f-1a11-bdd0-86794d16ebf2-5ce7dc3b" class="why-item">
+            <div class="text-block-47">United Platform
+            </div>
+            <p class="paragraph-29">
+              Using Meo unified experience, you can automate and simplify your payments, integrate it with the tools you use, and ensure peace of mind with robust controls and approvals.
+              <br>&zwj;
+            </p>
+          </div>
+          <div id="w-node-_9b4c6494-d520-73bc-e4d5-6de6c0728a5a-5ce7dc3b" class="why-item">
+            <div class="text-block-47">Easy To Set Up and Secure
+
+            </div>
+            <p class="paragraph-29">
+              An easy onboarding experience makes it easy for you to transition from your existing tools, set up processes, and send payments quickly. Built on solutions following security best practices including SOC2 (Unit) / ISO 27001 (CurrencyCloud).
+            </p>
+          </div>
+          <div id="w-node-_1579615e-b697-0492-f331-816ad592f7a3-5ce7dc3b" class="why-item">
+            <div class="text-block-47">FDIC&nbsp;Insurance
+              <sup>2</sup></div><p class="paragraph-29">
+                FDIC insurance
+                <sup>2</sup> 
+                is available for funds on deposits in USD accounts offered through Blue Ridge Bank N.A. and Thread Bank; Members FDIC.
+              </p>
+            </div>
+            <div id="w-node-_9431bcaa-4f65-e57b-b5fe-b740d50b4518-5ce7dc3b" class="why-item">
+              <div class="text-block-47">Transparent Pricing
+              </div>
+              <p class="paragraph-29">Meo delivers modern payments solutions with a simple, transparent cost structure so there's no surprise charges. 
+
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+
+  <section class="section section--grey">
+    <div class="container">
+      <div class="post__content">
+        <!-- wp:columns {"columns":3} -->
+        <div class="wp-block-columns has-3-columns" style="margin-top: 15px; width: 100%;" >
+          <div class="wp-block-column">
+            <figure class="wp-block-image">
+              <img src="assets/images/9.jpg" alt="ifund" class="product_Img wp-image-311932" />
+            </figure>
+            <div class="centered-text">
+              <h3 class="heading_text">
+                Personal Financing
+              </h3>
+              <p>
+                You are at the right place and search no more. If you are looking for a Shariah Compliant Financing. we have a solution for your to address your financing needs.
+              </p>
+            </div>
+          </div>
+          <div class="wp-block-column">
+            <figure class="wp-block-image">
+              <img src="assets/images/1.jpg" alt="ifund" class="product_Img wp-image-311932" />
+            </figure>
+            <div class="centered-text">
+              <h3 class="heading_text">
+                Business Financing
+              </h3>
+              <p>
+                Grow your business with our Shariah Compliant Business Financing. Use it as your working capital or consolidate your debt. Contact us to know more.
+              </p>
+            </div>
+          </div>
+          <div class="wp-block-column">
+            <figure class="wp-block-image">
+              <img src="assets/images/8.jfif" alt="ifund" class="product_Img wp-image-311932" />
+            </figure>
+            <div class="centered-text">
+              <h3 class="heading_text">
+                Motorcycle Financing
+              </h3>
+              <p>
+                Realise your dream owning a bike with our Shariah Compliant Financing product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col ">
+            <h4>
+              Payments
+            </h4>
+           <p>Overview</p>
+           <p>Mass Payments</p>
+           <p>Tax Compliance</p>
+           <p>Global Payment API</p>
+           <p>Global Payouts</p>
+           <p>Integrations</p>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Banking
+          </h4>
+         <p>Overview</p>
+         <p>Foreign Exchange</p>
+         <p>Corporate Cards</p>
+         <p>Integrations</p>
+      </div>
+        <div class="col-md-6 col-lg-4 info_col">
+            <div class="info_contact">
+              <h4>
+                Address
+              </h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                      9160 Forum Corporate Parkway, STE 350, Fort Myers, FL 33905
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call (833) 879-6360
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    contact@trymeo.com 
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="info_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
